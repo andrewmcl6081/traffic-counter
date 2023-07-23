@@ -139,6 +139,7 @@ int main(int argc, char** argv) {
 
                 cv::rectangle(frame, rect, red, 1);
             }
+            // west bound car
             else {
 
                 // we are within the left lane count zone // should be 11
